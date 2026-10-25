@@ -1,6 +1,6 @@
 ---
 title: AI 爬虫可达性自查：robots.txt 里该放行哪些 User-agent
-date: 2026-10-26 00:30:00
+date: 2026-10-25 12:00:00
 categories: [GEO 方法]
 tags: [robots.txt, AI 爬虫, 抓取可达性]
 cover: /images/deliver-actions.svg

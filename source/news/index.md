@@ -1,6 +1,6 @@
 ---
 title: 研究动态
-date: 2026-10-26 00:10:00
+date: 2026-10-25 11:00:00
 layout: news
 subtitle: GEO 方法与 AI 抓取的实操记录
 description: OneGeo 研究动态：GEO 生成式引擎优化的做法、AI 爬虫可达性、引用衡量口径与 llms.txt 等实操记录，按发布时间倒序排列。

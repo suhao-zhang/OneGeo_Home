@@ -1,6 +1,6 @@
 ---
 title: llms.txt 是什么，站点到底要不要放
-date: 2026-10-26 01:30:00
+date: 2026-10-25 13:00:00
 categories: [GEO 方法]
 tags: [llms.txt, 结构化, 抓取可达性]
 cover: /images/deliver-structure.svg

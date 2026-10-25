@@ -1,6 +1,6 @@
 # www.robotstxt.org/
 # OneGeo（https://www.onegeo.cn）—— 本站明确欢迎 AI 抓取：GEO 的前提是模型能抓到并读懂内容。
-# 各抓取器的用途分工与放行策略见 /2026-10-26/ai-crawler-robots-checklist/
+# 各抓取器的用途分工与放行策略见「研究动态」里的《AI 爬虫可达性自查》 /news/
 
 User-agent: *
 Allow: /

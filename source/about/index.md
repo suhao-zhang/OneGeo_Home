@@ -1,6 +1,6 @@
 ---
 title: 关于 OneGeo
-date: 2026-10-26 00:10:00
+date: 2026-10-25 11:00:00
 layout: page
 subtitle: 新乡洹拓科技有限公司旗下的 GEO 项目
 description: OneGeo 是新乡洹拓科技有限公司旗下的 GEO 生成式引擎优化项目：说明它与传统 SEO 的区别、五步做法、能做什么与明确不承诺什么，以及主体与联系方式。
