@@ -1,0 +1,73 @@
+<%
+var features = theme.features || {};
+var currentPath = '/' + (page.path || '');
+currentPath = currentPath.replace(/\/index\.html$/, '/').replace(/\/$/, '') + '/';
+var root = url_for('/');
+if (root.slice(-1) !== '/') root += '/';
+%>
+<header id="header" class="site-header<%= features.sticky_header === false ? '' : ' site-header--sticky' %>">
+  <div class="container header-inner">
+    <a class="brand" href="<%- url_for('/') %>" aria-label="<%= theme.brand.name %>">
+      <% if (theme.brand.logo) { %>
+      <img class="brand__logo" src="<%- url_for(theme.brand.logo) %>" alt="<%= theme.brand.name %>">
+      <% } %>
+      <span class="brand__name"><%= theme.brand.name %></span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="main navigation">
+      <ul>
+        <%
+        // ★ 本地改版（第 5 处主题补丁）：主题原本只认扁平的 menu，加不了二级菜单。
+        //   现在 menu 项可以带 children: [{name, url}]，渲染成下拉。
+        //   高亮判断改成直接比配置里的路径（原来是拿 url_for 的结果比，
+        //   站内开了 relative_link 后 url_for 返回的是 ../about/ 这种相对串，比不中）。
+        //   升级主题时这段要重做。
+        function normUrl(u) {
+          var s = String(u || '');
+          if (/^https?:\/\//i.test(s)) return s;               // 外链不参与高亮
+          s = '/' + s.replace(/^\//, '').replace(/index\.html$/, '');
+          return s.slice(-1) === '/' ? s : s + '/';
+        }
+        function isActive(target) {
+          if (target === '/') return currentPath === '/';
+          return currentPath === target || currentPath.indexOf(target) === 0;
+        }
+        function isExact(target) { return currentPath === target; }
+        %>
+        <% (theme.menu || []).forEach(function (item) {
+          var kids = item.children || [];
+          var self = normUrl(item.url);
+          var active = isActive(self);
+          kids.forEach(function (c) { if (isExact(normUrl(c.url))) active = true; });
+        %>
+        <li class="<%= kids.length ? 'menu-has-children' : '' %>">
+          <a href="<%- url_for(item.url) %>" class="<%= active ? 'active' : '' %>"<% if (kids.length) { %> aria-haspopup="true"<% } %>><%= item.name %><% if (kids.length) { %><%- icon('chevron-down') %><% } %></a>
+          <% if (kids.length) { %>
+          <ul class="sub-menu">
+            <% kids.forEach(function (c) { %>
+            <li><a href="<%- url_for(c.url) %>" class="<%= isExact(normUrl(c.url)) ? 'active' : '' %>"><%= c.name %></a></li>
+            <% }) %>
+          </ul>
+          <% } %>
+        </li>
+        <% }) %>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <% if (features.dark_mode) { %>
+      <button id="theme-toggle" class="icon-btn" aria-label="<%= __('dark_mode') %>" title="<%= __('dark_mode') %>">
+        <span class="icon-btn__moon"><%- icon('moon') %></span>
+        <span class="icon-btn__sun"><%- icon('sun') %></span>
+      </button>
+      <% } %>
+      <% if (theme.nav_button && theme.nav_button.name) { %>
+      <a class="btn btn--primary btn--sm nav-cta" href="<%- url_for(theme.nav_button.url) %>"><%= theme.nav_button.name %></a>
+      <% } %>
+      <button id="nav-toggle" class="nav-toggle icon-btn" aria-label="menu" aria-expanded="false">
+        <span class="nav-toggle__open"><%- icon('menu') %></span>
+        <span class="nav-toggle__close"><%- icon('x') %></span>
+      </button>
+    </div>
+  </div>
+</header>
