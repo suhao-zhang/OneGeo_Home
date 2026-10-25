@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 ## 线上域名。canonical / Open Graph / sitemap / JSON-LD 全部以它为准，
 ## 改错了会直接产出指向 localhost 的线上页面（2026-10-26 踩过一次）
 url: https://www.onegeo.cn
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # 去掉 URL 末尾的 index.html，canonical 与主题内部链接形态一致（/about/ 而非 /about/index.html）
