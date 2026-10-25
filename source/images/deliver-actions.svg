@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="优化动作清单示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="72" y="92" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#0f172a">动作清单</text>
+  <text x="72" y="122" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#64748b">站内改造 + 站外信源，逐条可核对</text>
+  <g>
+    <g>
+      <rect x="86" y="146" width="26" height="26" rx="7" fill="#2563eb"/>
+      <path d="M92 159l5 5 9-10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="126" y="152" width="200" height="14" rx="7" fill="#cbd5e1"/>
+    </g>
+    <g>
+      <rect x="86" y="192" width="26" height="26" rx="7" fill="#2563eb"/>
+      <path d="M92 205l5 5 9-10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="126" y="198" width="240" height="14" rx="7" fill="#cbd5e1"/>
+    </g>
+    <g>
+      <rect x="86" y="238" width="26" height="26" rx="7" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+      <rect x="126" y="244" width="176" height="14" rx="7" fill="#e2e8f0"/>
+    </g>
+    <g>
+      <rect x="86" y="284" width="26" height="26" rx="7" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+      <rect x="126" y="290" width="212" height="14" rx="7" fill="#e2e8f0"/>
+    </g>
+  </g>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#1d4ed8">
+    <text x="404" y="164">robots 放行</text>
+    <text x="404" y="210">llms.txt</text>
+    <text x="404" y="256">FAQ 结构化</text>
+    <text x="404" y="302">信源一致性</text>
+  </g>
+</svg>

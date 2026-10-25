@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="OneGeo 工作方式示意：内容、抓取、引用与回测四步闭环">
+  <defs>
+    <linearGradient id="ab-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="ab-s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0f172a" flood-opacity=".08"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="#f8fafc"/>
+  <circle cx="540" cy="80" r="90" fill="#dbeafe" opacity=".5"/>
+
+  <g filter="url(#ab-s)">
+    <rect x="60" y="70" width="230" height="150" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="60" y="70" width="230" height="40" rx="16" fill="#f1f5f9"/>
+    <circle cx="84" cy="90" r="6" fill="#f87171"/><circle cx="102" cy="90" r="6" fill="#fbbf24"/><circle cx="120" cy="90" r="6" fill="#34d399"/>
+    <g fill="#cbd5e1"><rect x="84" y="130" width="180" height="12" rx="6"/><rect x="84" y="154" width="150" height="12" rx="6"/><rect x="84" y="178" width="166" height="12" rx="6"/></g>
+  </g>
+  <text x="60" y="248" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#334155">① 内容结构化</text>
+
+  <g filter="url(#ab-s)">
+    <circle cx="400" cy="150" r="66" fill="#ffffff" stroke="#e2e8f0"/>
+    <circle cx="400" cy="150" r="48" fill="url(#ab-g)"/>
+    <circle cx="400" cy="150" r="33" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2.6"/>
+    <ellipse cx="400" cy="150" rx="14" ry="33" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2.2"/>
+    <path d="M367 138h66M367 162h66" stroke="#fff" stroke-opacity=".55" stroke-width="2.2"/>
+  </g>
+  <text x="332" y="248" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#334155">② 抓取可达</text>
+
+  <g filter="url(#ab-s)">
+    <rect x="60" y="290" width="230" height="130" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <g fill="#cbd5e1"><rect x="84" y="316" width="180" height="12" rx="6"/><rect x="84" y="340" width="150" height="12" rx="6"/></g>
+    <rect x="84" y="366" width="180" height="34" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <circle cx="104" cy="383" r="7" fill="url(#ab-g)"/>
+    <text x="120" y="390" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="600" fill="#1d4ed8">onegeo.cn</text>
+  </g>
+  <text x="60" y="448" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#334155">③ 被引用</text>
+
+  <g filter="url(#ab-s)">
+    <rect x="330" y="290" width="250" height="130" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <g stroke="#e2e8f0" stroke-width="1.5"><path d="M356 336h198M356 366h198"/></g>
+    <path d="M356 388L398 372L440 380L482 348L524 330" fill="none" stroke="#2563eb" stroke-width="3.4" stroke-linecap="round"/>
+    <text x="356" y="322" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#1d4ed8">固定问题集回测</text>
+  </g>
+  <text x="330" y="448" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="19" fill="#334155">④ 逐月对照</text>
+
+  <g stroke="#94a3b8" stroke-width="2.6" fill="none" stroke-dasharray="9 8">
+    <path d="M296 148h34"/><path d="M176 226v58"/><path d="M296 352h30"/>
+  </g>
+  <g fill="#64748b"><path d="M326 142l12 6-12 6z"/><path d="M170 284l6 12 6-12z"/><path d="M322 346l12 6-12 6z"/></g>
+</svg>

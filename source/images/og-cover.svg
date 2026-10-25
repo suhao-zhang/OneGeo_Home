@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="OneGeo · GEO 生成式引擎优化">
+  <defs>
+    <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13213f"/>
+    </linearGradient>
+    <linearGradient id="g-mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g-bg)"/>
+  <circle cx="1060" cy="90" r="190" fill="#1d4ed8" opacity=".18"/>
+  <circle cx="120" cy="580" r="150" fill="#0ea5e9" opacity=".14"/>
+
+  <!-- 标记 -->
+  <g transform="translate(90,120)">
+    <rect width="108" height="108" rx="30" fill="url(#g-mark)"/>
+    <circle cx="52" cy="58" r="34" fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="4"/>
+    <ellipse cx="52" cy="58" rx="14" ry="34" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="3.4"/>
+    <path d="M20 44h64M20 72h64" stroke="#fff" stroke-opacity=".6" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="88" cy="22" r="11" fill="#fff"/><circle cx="88" cy="22" r="5" fill="#2563eb"/>
+  </g>
+  <text x="222" y="200" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="72" font-weight="700" fill="#ffffff">OneGeo</text>
+
+  <text x="90" y="330" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="52" font-weight="700" fill="#ffffff">让品牌被 AI 检索、引用、推荐</text>
+  <text x="90" y="398" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="30" fill="#93c5fd">GEO 生成式引擎优化 · 新乡洹拓科技有限公司旗下项目</text>
+
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="26" fill="#cbd5e1">
+    <text x="90" y="486">实体一致性 · 内容结构化 · 抓取可达性 · 信源布局 · 持续监测</text>
+  </g>
+  <g>
+    <rect x="90" y="520" width="330" height="56" rx="28" fill="#1d4ed8" opacity=".28" stroke="#3b82f6" stroke-opacity=".5"/>
+    <text x="118" y="556" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="26" font-weight="600" fill="#dbeafe">www.onegeo.cn</text>
+  </g>
+  <text x="452" y="556" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="24" fill="#64748b">衡量口径：被引用次数 · 描述准确率 · 来源分布</text>
+</svg>

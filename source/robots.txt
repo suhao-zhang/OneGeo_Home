@@ -1,0 +1,63 @@
+# www.robotstxt.org/
+# OneGeo（https://www.onegeo.cn）—— 本站明确欢迎 AI 抓取：GEO 的前提是模型能抓到并读懂内容。
+# 各抓取器的用途分工与放行策略见 /2026-10-26/ai-crawler-robots-checklist/
+
+User-agent: *
+Allow: /
+
+# ---- OpenAI ----
+# OAI-SearchBot：ChatGPT 搜索索引，挡掉就不会出现在 ChatGPT 的搜索答案里
+User-agent: OAI-SearchBot
+Allow: /
+
+# GPTBot：可能进入基础模型训练的数据抓取，与搜索可见性是两条独立的治理面
+User-agent: GPTBot
+Allow: /
+
+# ChatGPT-User：用户在对话里点名访问页面时的实时取页
+User-agent: ChatGPT-User
+Allow: /
+
+# ---- Anthropic ----
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# ---- Perplexity ----
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---- Google：Google-Extended 是用途控制项，不是独立爬虫（日志里通常不会出现它）----
+User-agent: Google-Extended
+Allow: /
+
+# ---- 字节跳动（豆包）----
+User-agent: Bytespider
+Allow: /
+
+# ---- Common Crawl：大量开源模型的语料来源 ----
+User-agent: CCBot
+Allow: /
+
+# ---- 中文搜索 ----
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-render
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+Sitemap: https://www.onegeo.cn/sitemap.xml

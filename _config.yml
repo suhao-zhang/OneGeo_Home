@@ -5,16 +5,16 @@
 # Site
 title: OneGeo
 subtitle: GEO 研究与优化 · 新乡洹拓科技有限公司旗下项目
-description: OneGeo 是新乡洹拓科技有限公司旗下的 GEO（Generative Engine Optimization，生成式引擎优化）研究与服务项目，关注内容如何被抓取、理解并被生成式引擎作为来源引用。
-keywords: GEO,生成式引擎优化,Generative Engine Optimization,AI 引用,内容结构化,新乡洹拓科技
+description: OneGeo 是新乡洹拓科技有限公司旗下的 GEO（生成式引擎优化）项目，做实体一致性、内容结构化、抓取可达性、信源布局与持续监测，用被引用次数、描述准确率与来源分布衡量效果，不承诺排名。
+keywords: GEO,生成式引擎优化,Generative Engine Optimization,AI搜索优化,大模型引用,内容结构化,llms.txt,新乡洹拓科技
 author: 新乡洹拓科技有限公司     # 法律主体；对外品牌名是 OneGeo
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## 上线前必须改成真实域名（影响 canonical、Open Graph、sitemap、JSON-LD 的正确性）
-## 本机 4000 端口已被另一个 hexo 站点占用，本站预览用 4002
-url: http://localhost:4002
+## 线上域名。canonical / Open Graph / sitemap / JSON-LD 全部以它为准，
+## 改错了会直接产出指向 localhost 的线上页面（2026-10-26 踩过一次）
+url: https://www.onegeo.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -93,6 +93,14 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+# Sitemap（hexo-generator-sitemap）
+# 只收文章、页面、标签与分类的第 1 页；分页副本由 scripts/robots-meta.js 出 noindex
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
