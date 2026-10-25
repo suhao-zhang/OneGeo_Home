@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="PHP 两项 RCE 漏洞的两种标题口径示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="90" font-size="24" font-weight="700" fill="#0f172a">同一事件 · 两种说法</text>
+    <text x="72" y="118" font-size="16" fill="#64748b">能被复述的，只有带版本号的那一句</text>
+
+    <!-- 标题条 A：带事实 -->
+    <rect x="72" y="146" width="248" height="42" rx="8" fill="#2563eb"/>
+    <rect x="88" y="160" width="120" height="14" rx="7" fill="#ffffff" opacity="0.92"/>
+    <rect x="216" y="160" width="88" height="14" rx="7" fill="#93c5fd"/>
+    <text x="72" y="212" font-size="13" fill="#1d4ed8">社区稿：版本 + 区间 + 动作</text>
+
+    <!-- 标题条 B：情绪化 -->
+    <rect x="72" y="236" width="248" height="42" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <rect x="88" y="250" width="150" height="14" rx="7" fill="#fecaca"/>
+    <rect x="246" y="250" width="58" height="14" rx="7" fill="#e2e8f0"/>
+    <text x="72" y="298" font-size="13" fill="#dc2626">新闻头条：无版本、无动作、正文需登录</text>
+
+    <!-- 右侧事实四行 -->
+    <g fill="#64748b" font-size="15">
+      <text x="392" y="164">公告日 2026-10-21</text>
+      <text x="392" y="196">两项未授权 RCE</text>
+      <text x="392" y="228">8.5.12 / 8.4.27</text>
+      <text x="392" y="260">8.3.36 / 8.2.35</text>
+      <text x="392" y="292">配置缓解 ≠ 补丁</text>
+    </g>
+    <g fill="none" stroke="#bfdbfe" stroke-width="2">
+      <path d="M376 158h8M376 190h8M376 222h8M376 254h8M376 286h8"/>
+    </g>
+  </g>
+</svg>

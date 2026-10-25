@@ -1,5 +1,5 @@
 ---
-title: AI 爬虫可达性自查：robots.txt 里该放行哪些 User-agent
+title: OneGeo 自查：robots.txt 该放行哪些 AI 爬虫
 date: 2026-10-25 12:00:00
 categories: [GEO 方法]
 tags: [robots.txt, AI 爬虫, 抓取可达性]

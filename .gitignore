@@ -8,6 +8,7 @@ db.json
 *.log
 .multibranche/
 .preview/
+vibe_images/
 
 # 系统与编辑器
 .DS_Store
