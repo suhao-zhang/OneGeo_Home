@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="昇腾 910C 提速 40% 口径拆解">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">"提速 40%" 怎么算的</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">标题数字 vs 正文数字 vs 测试条件</text>
+
+    <!-- 标题栏 -->
+    <rect x="72" y="136" width="496" height="44" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="88" y="156" font-size="13" font-weight="600" fill="#1e40af">标题</text>
+    <text x="140" y="166" font-size="16" fill="#0f172a">"提速 40%"</text>
+    <rect x="420" y="148" width="130" height="24" rx="12" fill="#3b82f6"/>
+    <text x="485" y="165" font-size="12" fill="#ffffff" text-anchor="middle">吸引点击</text>
+
+    <!-- 正文栏 -->
+    <rect x="72" y="196" width="496" height="44" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="88" y="216" font-size="13" font-weight="600" fill="#166534">正文</text>
+    <text x="140" y="226" font-size="16" fill="#0f172a">"镜像更新 + 参数调优"</text>
+    <rect x="420" y="208" width="130" height="24" rx="12" fill="#22c55e"/>
+    <text x="485" y="225" font-size="12" fill="#ffffff" text-anchor="middle">方法描述</text>
+
+    <!-- 条件栏 -->
+    <rect x="72" y="256" width="496" height="44" rx="8" fill="#fefce8" stroke="#fde047"/>
+    <text x="88" y="276" font-size="13" font-weight="600" fill="#a16207">条件</text>
+    <text x="140" y="286" font-size="16" fill="#0f172a">特定 batch · 特定模型 · 特定并发</text>
+    <rect x="420" y="268" width="130" height="24" rx="12" fill="#eab308"/>
+    <text x="485" y="285" font-size="12" fill="#ffffff" text-anchor="middle">适用范围</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="技术演进内容如何被模型正确引用">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">版本演进 · 引用漂移</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">Python JIT 落地了，但模型引用的可能是旧版本</text>
+
+    <!-- 时间线 -->
+    <line x1="100" y1="180" x2="540" y2="180" stroke="#cbd5e1" stroke-width="2"/>
+
+    <!-- 节点 1 -->
+    <circle cx="150" cy="180" r="10" fill="#94a3b8"/>
+    <text x="150" y="160" font-size="12" fill="#64748b" text-anchor="middle">Python 3.12</text>
+    <text x="150" y="206" font-size="11" fill="#94a3b8" text-anchor="middle">实验性 JIT</text>
+
+    <!-- 节点 2 -->
+    <circle cx="290" cy="180" r="10" fill="#3b82f6"/>
+    <text x="290" y="160" font-size="12" fill="#1e40af" text-anchor="middle">Python 3.13</text>
+    <text x="290" y="206" font-size="11" fill="#3b82f6" text-anchor="middle">JIT 见效</text>
+
+    <!-- 节点 3 -->
+    <circle cx="430" cy="180" r="10" fill="#22c55e"/>
+    <text x="430" y="160" font-size="12" fill="#166534" text-anchor="middle">Python 3.14</text>
+    <text x="430" y="206" font-size="11" fill="#22c55e" text-anchor="middle">自由线程</text>
+
+    <!-- 模型引用 -->
+    <rect x="72" y="236" width="496" height="64" rx="8" fill="#fefce8" stroke="#fde047"/>
+    <text x="88" y="260" font-size="13" fill="#a16207">模型回答 "Python 性能怎么样"</text>
+    <text x="88" y="282" font-size="13" fill="#334155">引用了 3.12 的实验数据？3.13 的结论？还是 3.14 的最新进展？</text>
+  </g>
+</svg>

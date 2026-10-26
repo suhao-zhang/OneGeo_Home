@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="5G 工厂名录与工业内容被 AI 引用">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">5G 工厂 · 内容可达性</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">进了名录，然后呢？</text>
+
+    <!-- 工厂图标 -->
+    <rect x="72" y="140" width="80" height="100" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+    <rect x="82" y="150" width="24" height="20" rx="3" fill="#3b82f6" opacity="0.3"/>
+    <rect x="112" y="150" width="24" height="20" rx="3" fill="#3b82f6" opacity="0.3"/>
+    <rect x="82" y="178" width="24" height="20" rx="3" fill="#3b82f6" opacity="0.3"/>
+    <rect x="112" y="178" width="24" height="20" rx="3" fill="#3b82f6" opacity="0.3"/>
+    <rect x="98" y="206" width="20" height="34" rx="2" fill="#3b82f6" opacity="0.5"/>
+    <text x="112" y="258" font-size="12" fill="#1e40af" text-anchor="middle">工厂</text>
+
+    <!-- 5G 信号 -->
+    <g transform="translate(200, 170)">
+      <circle cx="0" cy="20" r="8" fill="#3b82f6"/>
+      <path d="M-20 0 A28 28 0 0 1 20 0" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.4"/>
+      <path d="M-32 -12 A40 40 0 0 1 32 -12" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.25"/>
+    </g>
+    <text x="200" y="220" font-size="12" fill="#1e40af" text-anchor="middle">5G 连接</text>
+
+    <!-- 数据流 -->
+    <g fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4">
+      <path d="M240 190h60" marker-end="url(#arrowD)"/>
+    </g>
+    <defs>
+      <marker id="arrowD" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+        <path d="M0 0 L6 2.5 L0 5" fill="#94a3b8"/>
+      </marker>
+    </defs>
+
+    <!-- 右侧：AI 引用链 -->
+    <rect x="320" y="136" width="250" height="160" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="340" y="164" font-size="14" font-weight="600" fill="#0f172a">被 AI 引用的前提</text>
+
+    <circle cx="348" cy="192" r="6" fill="#3b82f6"/>
+    <text x="364" y="196" font-size="13" fill="#334155">官网有可抓取的技术文档</text>
+
+    <circle cx="348" cy="220" r="6" fill="#22c55e"/>
+    <text x="364" y="224" font-size="13" fill="#334155">数据以结构化格式呈现</text>
+
+    <circle cx="348" cy="248" r="6" fill="#eab308"/>
+    <text x="364" y="252" font-size="13" fill="#334155">关键指标有明确口径说明</text>
+
+    <circle cx="348" cy="276" r="6" fill="#ef4444"/>
+    <text x="364" y="280" font-size="13" fill="#334155">robots.txt 放行 AI 爬虫</text>
+  </g>
+</svg>
