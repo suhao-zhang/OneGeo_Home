@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="AI 眼镜硬件产品参数与 GEO 引用">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">硬件参数 · 引用陷阱</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">AI 眼镜的参数，模型最容易引错</text>
+
+    <!-- 眼镜图标 -->
+    <g transform="translate(120, 160)">
+      <ellipse cx="0" cy="0" rx="40" ry="30" fill="none" stroke="#6366f1" stroke-width="3"/>
+      <ellipse cx="100" cy="0" rx="40" ry="30" fill="none" stroke="#6366f1" stroke-width="3"/>
+      <path d="M40 0 Q50 -10 60 0" fill="none" stroke="#6366f1" stroke-width="3"/>
+      <line x1="-40" y1="0" x2="-60" y2="-10" stroke="#6366f1" stroke-width="3"/>
+      <line x1="140" y1="0" x2="160" y2="-10" stroke="#6366f1" stroke-width="3"/>
+      <!-- AI 标识 -->
+      <circle cx="0" cy="0" r="12" fill="#6366f1" opacity="0.15"/>
+      <text x="0" y="5" font-size="10" fill="#4f46e5" text-anchor="middle">AI</text>
+      <circle cx="100" cy="0" r="12" fill="#6366f1" opacity="0.15"/>
+      <text x="100" y="5" font-size="10" fill="#4f46e5" text-anchor="middle">AI</text>
+    </g>
+
+    <!-- 右侧参数对比 -->
+    <rect x="340" y="136" width="230" height="160" rx="10" fill="#faf5ff" stroke="#c084fc"/>
+    <text x="360" y="162" font-size="14" font-weight="600" fill="#6d28d9">容易引错的参数</text>
+
+    <text x="360" y="190" font-size="12" fill="#334155">续航：官方 8h vs 实测 4h</text>
+    <rect x="360" y="196" width="190" height="4" rx="2" fill="#e9d5ff"/>
+
+    <text x="360" y="220" font-size="12" fill="#334155">重量：机身 38g vs 含盒 120g</text>
+    <rect x="360" y="226" width="190" height="4" rx="2" fill="#e9d5ff"/>
+
+    <text x="360" y="250" font-size="12" fill="#334155">模型：端侧 vs 云端混合推理</text>
+    <rect x="360" y="256" width="190" height="4" rx="2" fill="#e9d5ff"/>
+
+    <text x="360" y="280" font-size="12" fill="#334155">价格：预售 vs 正式发售</text>
+    <rect x="360" y="286" width="190" height="4" rx="2" fill="#e9d5ff"/>
+  </g>
+</svg>

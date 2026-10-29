@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Agent Skill 生态与 GEO 引用关系">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">Skill 生态 · 引用生态</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">8 万技能上架，AI 能调用的有多少？</text>
+
+    <!-- 左侧：Skill 市场 -->
+    <rect x="72" y="136" width="200" height="160" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="172" y="162" font-size="14" font-weight="600" fill="#1e40af" text-anchor="middle">SkillHub</text>
+    <text x="172" y="182" font-size="28" font-weight="700" fill="#2563eb" text-anchor="middle">80,000+</text>
+    <text x="172" y="202" font-size="12" fill="#64748b" text-anchor="middle">技能已上架</text>
+
+    <!-- 分类小方块 -->
+    <rect x="92" y="216" width="40" height="16" rx="4" fill="#dbeafe"/>
+    <rect x="138" y="216" width="40" height="16" rx="4" fill="#bfdbfe"/>
+    <rect x="184" y="216" width="40" height="16" rx="4" fill="#93c5fd"/>
+    <rect x="92" y="238" width="56" height="16" rx="4" fill="#dbeafe"/>
+    <rect x="154" y="238" width="56" height="16" rx="4" fill="#bfdbfe"/>
+    <rect x="92" y="260" width="72" height="16" rx="4" fill="#93c5fd" opacity="0.5"/>
+
+    <!-- 箭头 -->
+    <path d="M280 216 L330 216" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrowG2)"/>
+    <defs>
+      <marker id="arrowG2" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+        <path d="M0 0 L6 2.5 L0 5" fill="#94a3b8"/>
+      </marker>
+    </defs>
+
+    <!-- 右侧：AI 可调用 -->
+    <rect x="338" y="136" width="230" height="160" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="453" y="162" font-size="14" font-weight="600" fill="#166534" text-anchor="middle">AI 能调用的 Skill</text>
+
+    <circle cx="370" cy="196" r="8" fill="#22c55e"/>
+    <text x="386" y="200" font-size="12" fill="#334155">有标准 API 描述</text>
+
+    <circle cx="370" cy="224" r="8" fill="#22c55e"/>
+    <text x="386" y="228" font-size="12" fill="#334155">输入输出格式明确</text>
+
+    <circle cx="370" cy="252" r="8" fill="#eab308"/>
+    <text x="386" y="256" font-size="12" fill="#334155">文档可被模型抓取</text>
+
+    <circle cx="370" cy="280" r="8" fill="#ef4444" opacity="0.5"/>
+    <text x="386" y="284" font-size="12" fill="#334155">仅人类可读的文档</text>
+  </g>
+</svg>

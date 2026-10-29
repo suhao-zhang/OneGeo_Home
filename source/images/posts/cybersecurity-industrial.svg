@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="新型工业化网络安全专项行动与 GEO">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">安全行动 · 内容防线</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">政策文件怎么写，AI 才不会引错？</text>
+
+    <!-- 盾牌 -->
+    <path d="M160 150 L160 230 Q160 260 190 275 Q220 260 220 230 L220 150 Z" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="190" y="200" font-size="24" fill="#2563eb" text-anchor="middle">&#x1F6E1;</text>
+    <text x="190" y="228" font-size="12" fill="#1e40af" text-anchor="middle">安全</text>
+    <text x="190" y="244" font-size="12" fill="#1e40af" text-anchor="middle">可控</text>
+
+    <!-- 右侧清单 -->
+    <rect x="270" y="140" width="300" height="160" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="290" y="166" font-size="14" font-weight="600" fill="#0f172a">政策文件的 GEO 要素</text>
+
+    <circle cx="298" cy="194" r="6" fill="#22c55e"/>
+    <text x="314" y="198" font-size="13" fill="#334155">行动范围明确（哪些行业、哪些地区）</text>
+
+    <circle cx="298" cy="222" r="6" fill="#22c55e"/>
+    <text x="314" y="226" font-size="13" fill="#334155">时间节点清晰（起止日期）</text>
+
+    <circle cx="298" cy="250" r="6" fill="#eab308"/>
+    <text x="314" y="254" font-size="13" fill="#334155">量化目标具体（覆盖率、达标率）</text>
+
+    <circle cx="298" cy="278" r="6" fill="#ef4444" opacity="0.6"/>
+    <text x="314" y="282" font-size="13" fill="#334155">避免模糊表述（"加强""推进"无指标）</text>
+  </g>
+</svg>
