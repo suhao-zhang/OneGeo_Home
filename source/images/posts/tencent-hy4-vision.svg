@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="腾讯混元 Hy4 模型能力描述与 GEO">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="86" font-size="24" font-weight="700" fill="#0f172a">"视觉理解" 怎么验证</text>
+    <text x="72" y="112" font-size="15" fill="#64748b">模型能力描述，AI 引用时最容易模糊</text>
+
+    <!-- 模型参数 -->
+    <rect x="72" y="136" width="160" height="80" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="152" y="162" font-size="13" font-weight="600" fill="#1e40af" text-anchor="middle">Hy4 参数规模</text>
+    <text x="152" y="186" font-size="16" fill="#2563eb" text-anchor="middle">770B 总 / 49B 激活</text>
+    <text x="152" y="206" font-size="11" fill="#64748b" text-anchor="middle">MoE 架构 · 1M 上下文</text>
+
+    <!-- 能力描述 -->
+    <rect x="252" y="136" width="160" height="80" rx="10" fill="#fefce8" stroke="#fde047"/>
+    <text x="332" y="162" font-size="13" font-weight="600" fill="#a16207" text-anchor="middle">新增能力</text>
+    <text x="332" y="186" font-size="16" fill="#ca8a04" text-anchor="middle">视觉理解</text>
+    <text x="332" y="206" font-size="11" fill="#64748b" text-anchor="middle">截图 + 文档 → 执行任务</text>
+
+    <!-- 验证问题 -->
+    <rect x="432" y="136" width="140" height="80" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+    <text x="502" y="162" font-size="13" font-weight="600" fill="#991b1b" text-anchor="middle">GEO 问题</text>
+    <text x="502" y="186" font-size="12" fill="#334155" text-anchor="middle">"视觉理解"</text>
+    <text x="502" y="204" font-size="12" fill="#334155" text-anchor="middle">怎么定义？</text>
+
+    <!-- 底部对比 -->
+    <rect x="72" y="236" width="240" height="68" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="88" y="260" font-size="12" font-weight="600" fill="#166534">好的描述（可验证）</text>
+    <text x="88" y="280" font-size="11" fill="#334155">"截图 Excel 表格自动生成图表，准确率 92%"</text>
+    <text x="88" y="296" font-size="11" fill="#334155">"读取 PDF 页面并回答相关问题，BLEU 0.87"</text>
+
+    <rect x="332" y="236" width="240" height="68" rx="8" fill="#fef2f2" stroke="#fca5a5"/>
+    <text x="348" y="260" font-size="12" font-weight="600" fill="#991b1b">模糊的描述（不可验证）</text>
+    <text x="348" y="280" font-size="11" fill="#334155">"首次引入视觉理解能力"</text>
+    <text x="348" y="296" font-size="11" fill="#334155">"可结合截图执行复杂任务"</text>
+  </g>
+</svg>
