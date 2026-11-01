@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="700 TOPS 算力上车数字口径示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="88" font-size="22" font-weight="700" fill="#0f172a">700 TOPS · 算力上车</text>
+    <text x="72" y="114" font-size="14" fill="#64748b">上汽集团 × 新新航途 · 大模型算力芯片嵌入车辆</text>
+
+    <!-- TOPS 解释 -->
+    <rect x="72" y="136" width="220" height="60" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="82" y="158" font-size="13" font-weight="600" fill="#1d4ed8">TOPS = 万亿次运算/秒</text>
+    <text x="82" y="180" font-size="12" fill="#3b82f6">700 TOPS = 700 × 10^12 OPS</text>
+
+    <!-- 对比 -->
+    <rect x="308" y="136" width="260" height="60" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="318" y="158" font-size="13" font-weight="600" fill="#166534">车载算力参考</text>
+    <text x="318" y="180" font-size="12" fill="#16a34a">Orin X: 254 TOPS · 单颗旗舰芯片</text>
+
+    <!-- 口径检查 -->
+    <text x="72" y="228" font-size="14" font-weight="600" fill="#0f172a">GEO 口径检查</text>
+    <text x="82" y="250" font-size="12" fill="#16a34a">✓ 700 TOPS 是 INT8 还是 FP16 精度？</text>
+    <text x="82" y="270" font-size="12" fill="#16a34a">✓ 是单芯片还是多芯片合计？</text>
+    <text x="82" y="290" font-size="12" fill="#dc2626">✗ "算力上车"不等于"自动驾驶能力"——需区分峰值与可用</text>
+  </g>
+</svg>

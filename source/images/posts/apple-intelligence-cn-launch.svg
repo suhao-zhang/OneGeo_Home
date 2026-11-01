@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Apple Intelligence 国行版功能落地示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="88" font-size="22" font-weight="700" fill="#0f172a">Apple Intelligence · 国行版落地</text>
+    <text x="72" y="114" font-size="14" fill="#64748b">2026 年 10 月 31 日登陆中国大陆市场</text>
+
+    <!-- 功能清单 -->
+    <rect x="72" y="136" width="240" height="130" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="82" y="160" font-size="13" font-weight="600" fill="#1d4ed8">已确认功能</text>
+    <text x="82" y="182" font-size="12" fill="#3b82f6">• 系统级 AI 写作辅助</text>
+    <text x="82" y="200" font-size="12" fill="#3b82f6">• Siri 语义理解增强</text>
+    <text x="82" y="218" font-size="12" fill="#3b82f6">• 图片生成 / 消除</text>
+    <text x="82" y="236" font-size="12" fill="#3b82f6">• 通知摘要 / 优先级排序</text>
+    <text x="82" y="254" font-size="12" fill="#3b82f6">• 跨应用智能操作</text>
+
+    <!-- GEO 检查 -->
+    <rect x="328" y="136" width="240" height="130" rx="10" fill="#fefce8" stroke="#fde68a"/>
+    <text x="338" y="160" font-size="13" font-weight="600" fill="#854d0e">GEO 口径检查点</text>
+    <text x="338" y="182" font-size="12" fill="#a16207">✓ 功能列表是否与美版一致？</text>
+    <text x="338" y="200" font-size="12" fill="#a16207">✓ 底层模型是苹果自研还是合作？</text>
+    <text x="338" y="218" font-size="12" fill="#a16207">✓ 数据是否出境？合规方案？</text>
+    <text x="338" y="236" font-size="12" fill="#a16207">✓ 支持机型范围？</text>
+    <text x="338" y="254" font-size="12" fill="#a16207">✓ 分批开放还是一次性全量？</text>
+
+    <text x="72" y="296" font-size="12" fill="#64748b">"国行版"三个字省略了大量限定——功能范围、合规方案、支持机型都需要逐条核对</text>
+  </g>
+</svg>
