@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="GPT-6.2 Astra 版本号口径示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="88" font-size="22" font-weight="700" fill="#0f172a">GPT-6.2 Astra · 版本号里藏了什么</text>
+    <text x="72" y="114" font-size="14" fill="#64748b">博客园 2026-11-02 曝光 · 从 6.1 到 6.2 意味着什么？</text>
+
+    <!-- 版本时间线 -->
+    <line x1="100" y1="160" x2="540" y2="160" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="140" cy="160" r="8" fill="#94a3b8"/>
+    <text x="140" y="145" font-size="11" fill="#64748b" text-anchor="middle">GPT-6.0</text>
+    <circle cx="250" cy="160" r="8" fill="#60a5fa"/>
+    <text x="250" y="145" font-size="11" fill="#3b82f6" text-anchor="middle">GPT-6.1</text>
+    <circle cx="360" cy="160" r="10" fill="#2563eb" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="360" y="145" font-size="11" fill="#1d4ed8" text-anchor="middle" font-weight="700">GPT-6.2?</text>
+    <circle cx="470" cy="160" r="6" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="3,2"/>
+    <text x="470" y="145" font-size="11" fill="#94a3b8" text-anchor="middle">GPT-7.0?</text>
+
+    <!-- 版本号口径说明 -->
+    <rect x="72" y="190" width="240" height="80" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="82" y="214" font-size="13" font-weight="600" fill="#1d4ed8">版本号递增的两种含义</text>
+    <text x="82" y="236" font-size="12" fill="#3b82f6">主版本 +1：架构级升级</text>
+    <text x="82" y="256" font-size="12" fill="#3b82f6">次版本 +0.1：能力迭代/修复</text>
+
+    <rect x="328" y="190" width="240" height="80" rx="10" fill="#fefce8" stroke="#fde68a"/>
+    <text x="338" y="214" font-size="13" font-weight="600" fill="#854d0e">GEO 口径问题</text>
+    <text x="338" y="236" font-size="12" fill="#a16207">"6.2" 是全新架构还是 6.1 补丁？</text>
+    <text x="338" y="256" font-size="12" fill="#a16207">模型引用时如何区分代际差异？</text>
+
+    <text x="72" y="300" font-size="12" fill="#64748b">曝光 ≠ 发布。模型如果引用"GPT-6.2 已发布"就会构成事实错误。</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="千问进 iPhone 合作模式口径示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="88" font-size="22" font-weight="700" fill="#0f172a">千问进 iPhone · 哪种合作模式？</text>
+    <text x="72" y="114" font-size="14" fill="#64748b">博客园报道 · 阿里千问大模型预装苹果 iPhone</text>
+
+    <!-- 三种合作模式 -->
+    <rect x="72" y="140" width="160" height="80" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="152" y="162" font-size="12" font-weight="600" fill="#1d4ed8" text-anchor="middle">模式 A</text>
+    <text x="152" y="180" font-size="11" fill="#3b82f6" text-anchor="middle">Siri 底层替换</text>
+    <text x="152" y="198" font-size="10" fill="#64748b" text-anchor="middle">千问替代 Siri 原有模型</text>
+
+    <rect x="248" y="140" width="160" height="80" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="328" y="162" font-size="12" font-weight="600" fill="#166534" text-anchor="middle">模式 B</text>
+    <text x="328" y="180" font-size="11" fill="#16a34a" text-anchor="middle">Apple Intelligence 接入</text>
+    <text x="328" y="198" font-size="10" fill="#64748b" text-anchor="middle">国行版 AI 功能由千问驱动</text>
+
+    <rect x="424" y="140" width="160" height="80" rx="10" fill="#fefce8" stroke="#fde68a"/>
+    <text x="504" y="162" font-size="12" font-weight="600" fill="#854d0e" text-anchor="middle">模式 C</text>
+    <text x="504" y="180" font-size="11" fill="#a16207" text-anchor="middle">独立 App 预装</text>
+    <text x="504" y="198" font-size="10" fill="#64748b" text-anchor="middle">千问 App 出厂自带</text>
+
+    <!-- GEO 口径 -->
+    <rect x="72" y="236" width="500" height="60" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="82" y="258" font-size="13" font-weight="600" fill="#0f172a">三种模式对用户的含义完全不同</text>
+    <text x="82" y="278" font-size="12" fill="#64748b">模式 A 最深度（替换 Siri），模式 C 最浅（多一个 App）——标题需要区分</text>
+  </g>
+</svg>
