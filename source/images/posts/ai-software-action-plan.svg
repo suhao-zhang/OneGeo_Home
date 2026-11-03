@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="AI+软件行动计划目标口径示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="560" height="280" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="72" y="88" font-size="22" font-weight="700" fill="#0f172a">"AI+ 软件"行动计划 · 三组目标数字</text>
+    <text x="72" y="114" font-size="14" fill="#64748b">工信部 2026-10-20 发布 · 分阶段量化目标</text>
+
+    <!-- 三个目标 -->
+    <rect x="72" y="136" width="160" height="80" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="152" y="160" font-size="18" font-weight="700" fill="#1d4ed8" text-anchor="middle">2万+</text>
+    <text x="152" y="180" font-size="12" fill="#3b82f6" text-anchor="middle">软件企业（2028）</text>
+    <text x="152" y="198" font-size="10" fill="#64748b" text-anchor="middle">AI 驱动升级</text>
+
+    <rect x="248" y="136" width="160" height="80" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="328" y="160" font-size="18" font-weight="700" fill="#166534" text-anchor="middle">100个</text>
+    <text x="328" y="180" font-size="12" fill="#16a34a" text-anchor="middle">智能体软件标杆</text>
+    <text x="328" y="198" font-size="10" fill="#64748b" text-anchor="middle">示范案例</text>
+
+    <rect x="424" y="136" width="160" height="80" rx="10" fill="#fefce8" stroke="#fde68a"/>
+    <text x="504" y="160" font-size="18" font-weight="700" fill="#854d0e" text-anchor="middle">2030</text>
+    <text x="504" y="180" font-size="12" fill="#a16207" text-anchor="middle">全面 AI 驱动</text>
+    <text x="504" y="198" font-size="10" fill="#64748b" text-anchor="middle">软件行业转型完成</text>
+
+    <!-- 口径说明 -->
+    <rect x="72" y="230" width="500" height="70" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="82" y="254" font-size="13" font-weight="600" fill="#0f172a">GEO 口径：政策目标要标注时间和量化标准</text>
+    <text x="82" y="276" font-size="12" fill="#64748b">"2 万家软件企业完成 AI 升级（2028 年）"比"推动软件企业 AI 化"更精确</text>
+    <text x="82" y="292" font-size="11" fill="#94a3b8">模型引用政策时，有时间锚点和量化目标才能回答"什么时候实现、实现多少"</text>
+  </g>
+</svg>
