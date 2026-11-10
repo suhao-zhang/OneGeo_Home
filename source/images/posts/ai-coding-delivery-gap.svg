@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="AI 让写作变快但交付环节更占时间示意">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="36" y="36" width="568" height="288" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="68" y="80" font-size="22" font-weight="700" fill="#0f172a">变快的是"写"，不是"发"</text>
+    <text x="68" y="105" font-size="14" fill="#64748b">生成成本趋零，交付成本不变</text>
+
+    <g>
+      <text x="68" y="146" font-size="13" fill="#475569">写作</text>
+      <rect x="130" y="132" width="210" height="20" rx="10" fill="#e2e8f0"/>
+      <rect x="130" y="132" width="72" height="20" rx="10" fill="#94a3b8"/>
+      <text x="212" y="147" font-size="11" fill="#64748b">AI 之后大幅压缩</text>
+
+      <text x="68" y="186" font-size="13" fill="#475569">查重 / 排期</text>
+      <rect x="130" y="172" width="210" height="20" rx="10" fill="#e2e8f0"/>
+      <rect x="130" y="172" width="168" height="20" rx="10" fill="#2563eb"/>
+
+      <text x="68" y="226" font-size="13" fill="#475569">核源 / 配图</text>
+      <rect x="130" y="212" width="210" height="20" rx="10" fill="#e2e8f0"/>
+      <rect x="130" y="212" width="192" height="20" rx="10" fill="#2563eb"/>
+
+      <text x="68" y="266" font-size="13" fill="#475569">构建 / 查链</text>
+      <rect x="130" y="252" width="210" height="20" rx="10" fill="#e2e8f0"/>
+      <rect x="130" y="252" width="150" height="20" rx="10" fill="#0ea5e9"/>
+
+      <text x="130" y="294" font-size="11" fill="#64748b">写得快 ≠ 发得出去：七步交付动作里没有一步是"写"</text>
+    </g>
+
+    <g>
+      <rect x="392" y="132" width="180" height="140" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="408" y="158" font-size="13" font-weight="700" fill="#0f172a">交付四层</text>
+      <text x="408" y="184" font-size="12" fill="#475569">边界 · 失败 · 可维护 · 可验收</text>
+      <text x="408" y="212" font-size="12" fill="#475569">AI 不替你决定</text>
+      <text x="408" y="234" font-size="12" fill="#475569">因为取决于你的业务</text>
+      <text x="408" y="258" font-size="11" fill="#1d4ed8">结论：瓶颈从写移到了发</text>
+    </g>
+  </g>
+</svg>

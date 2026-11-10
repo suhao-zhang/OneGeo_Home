@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="数字员工与内容的三种失败分型对照">
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <rect x="36" y="36" width="568" height="288" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="68" y="80" font-size="22" font-weight="700" fill="#0f172a">三种中断，三种静默</text>
+    <text x="68" y="105" font-size="14" fill="#64748b">看得见的失败好处理，看不见的才贵</text>
+
+    <g>
+      <rect x="68" y="128" width="160" height="152" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="84" y="154" font-size="15" font-weight="700" fill="#1d4ed8">等待型</text>
+      <text x="84" y="178" font-size="12" fill="#475569">任务没死，只是慢</text>
+      <text x="84" y="204" font-size="12" fill="#64748b">站点：超时、限流</text>
+      <text x="84" y="224" font-size="12" fill="#64748b">正文靠 JS 才渲染</text>
+      <text x="84" y="252" font-size="12" fill="#1d4ed8">处理：改交付方式</text>
+    </g>
+
+    <g>
+      <rect x="240" y="128" width="160" height="152" rx="12" fill="#fefce8" stroke="#fde68a"/>
+      <text x="256" y="154" font-size="15" font-weight="700" fill="#a16207">失败型</text>
+      <text x="256" y="178" font-size="12" fill="#475569">明确报错，有状态码</text>
+      <text x="256" y="204" font-size="12" fill="#64748b">站点：404 / 500</text>
+      <text x="256" y="224" font-size="12" fill="#64748b">半死链、错误重定向</text>
+      <text x="256" y="252" font-size="12" fill="#a16207">处理：查状态码</text>
+    </g>
+
+    <g>
+      <rect x="412" y="128" width="160" height="152" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+      <text x="428" y="154" font-size="15" font-weight="700" fill="#b91c1c">静默型</text>
+      <text x="428" y="178" font-size="12" fill="#475569">200，但正文是空的</text>
+      <text x="428" y="204" font-size="12" fill="#64748b">样式藏内容、图片代替表格</text>
+      <text x="428" y="224" font-size="12" fill="#64748b">模板空白、疑似成功</text>
+      <text x="428" y="252" font-size="12" fill="#b91c1c">处理：校验输出</text>
+    </g>
+
+    <text x="68" y="308" font-size="12" fill="#64748b">留痕五要素：输入 → 数据版本 → 动作 → 输出 → 时间戳</text>
+  </g>
+</svg>
